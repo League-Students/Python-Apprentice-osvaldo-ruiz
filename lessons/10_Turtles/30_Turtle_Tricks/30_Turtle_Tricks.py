@@ -26,10 +26,8 @@ def shape(sides=3):
     tina.penup()
     tina.goto(random.randint(-200, 200), random.randint(-200, 200))
     tina.pendown()
-tina.begin_fill()
-tina.fillcolor("blue")
-tina.circle(50, steps= 6)
-tina.end_fill()
+
+shape
 
 turtle.exitonclick()                    # Close the window when we click on it
 
