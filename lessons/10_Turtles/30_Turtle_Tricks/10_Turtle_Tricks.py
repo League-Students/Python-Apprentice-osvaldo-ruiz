@@ -18,5 +18,9 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Your code here
 tina.color('green')
 tina.forward(50)
-tina.left()
+tina.left(120)
+
+tina.color('blue')
+tina.forward(50)
+tina.left(120)
 turtle.exitonclick()                    # Close the window when we click on it
