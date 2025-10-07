@@ -1,20 +1,24 @@
 {
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/Thumbs.db": true,
-        "**/*.crswap": true,
-        "**/__pycache__": true,
-        "**/.cache": true,
-        "**/.coverage": true,
-        "**/.coverage.*": true,
-        "**/.hypothesis": true,
-        "**/.mypy_cache": true,
-        "**/.nox": true,
-        "**/.pytest_cache": true,
-        "**/.ruff_cache": true,
-        "**/.tox": true
-    }
-
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/Thumbs.db": true,
+    "**/*.crswap": true,
+    "**/__pycache__": true,
+    "**/.cache": true,
+    "**/.coverage": true,
+    "**/.coverage.*": true,
+    "**/.hypothesis": true,
+    "**/.mypy_cache": true,
+    "**/.nox": true,
+    "**/.pytest_cache": true,
+    "**/.ruff_cache": true,
+    "**/.tox": true
+  },
+  "jupyter.kernels.excludePythonEnvironments": [
+    "/bin/python3",
+    "/usr/bin/python3"
+  ],
+  "python.defaultInterpreterPath": "/usr/local/bin/python3"
 }
