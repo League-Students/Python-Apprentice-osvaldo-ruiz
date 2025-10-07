@@ -24,7 +24,7 @@ def get_random_rgb_color():
 # Your code here
 def shape(sides=3):
     tina.begin_fill()
-    tina.fillcolor(get_random_rgb_color())
+    tina.fillcolor(0, 0, 0)
     tina.circle(50, steps= sides)
     tina.end_fill()
     tina.penup()
