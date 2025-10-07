@@ -20,7 +20,7 @@ sides = 5
 angle = 360 / sides
 colors = ['yellow', 'orange', 'blue', 'red', 'green']
 for side in range(sides):
-    tina.color(colors[sides])
+    tina.color(colors[side])
     tina.forward(50)
     tina.left(angle)
 
