@@ -20,7 +20,7 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Your code here
 def shape(sides=3):
     tina.begin_fill()
-    tina.fillcolor(258)
+    tina.fillcolor(random.randint(0, 255))
     tina.circle(50, steps= sides)
     tina.end_fill()
     tina.penup()
