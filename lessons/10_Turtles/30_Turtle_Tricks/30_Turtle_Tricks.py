@@ -16,11 +16,15 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
-
+def get_random_rgb_color():
+    r = random.randint(0, 255)
+    g = random.randint(0, 255)
+    b = random.randint(0, 255)
+    return (r, g, b)
 # Your code here
 def shape(sides=3):
     tina.begin_fill()
-    tina.fillcolor(tuple(random.randint(0, 255),random.randint(0, 255)))
+    tina.fillcolor(get_random_rgb_color())
     tina.circle(50, steps= sides)
     tina.end_fill()
     tina.penup()
