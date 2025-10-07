@@ -18,7 +18,7 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Your code here
 sides = 5
 angle = 360 / sides
-colors = ['yellow', 'orange', 'blue', 'red', ]
+colors = ['yellow', 'orange', 'blue', 'red', 'green']
 for side in range(sides):
     tina.color()
     tina.forward(50)
